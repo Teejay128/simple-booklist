@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    display: block;
+    text-align: center;
+}
+.container h1{
+    font-variant: small-caps;
+    font-size: 50px;
+}
+/* adding a goddamn leaf */
+.leaf{
+    border: 2px solid #fff;
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(#072, #0f1);
+    border-radius: 0 100%;
+}
+.rev-leaf{
+    border: 2px solid #fff;
+    color: rgba(255, 255, 255, 0);
+    background: linear-gradient(#0f1, #072);
+    border-radius: 100% 0;
+}
+.form-control{
+    width: 80%;
+    margin: 0.7rem 0;
+    padding: 0.5rem;
+    border: 2px solid #072;
+}
+.form-control:focus{
+    border: 0.5rem solid green;
+    border-radius: 10px;
+}
+label{
+font-size: larger;
+}
+.btn{
+    color: #fff;
+    border: 2px solid white;
+    background-color: #072;
+    padding: 0.5rem;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(122, 160, 127);
+}
+th{
+    background-color: rgb(122, 160, 127);
+    font-size: x-large;
+    padding: 3px;
+}
+td{
+    font-size: larger;
+    padding: 3px;
+}
+.del{
+    font-size: larger;
+    font-weight: bold;
+    background-color: #f12;
+    color: #fff;
+    padding: 0 3px;
+}
+.good-alert{
+    position: relative;
+    margin: 0 20%;
+    text-align: center;
+    color: white;
+    background-color: #072;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+.bad-alert{
+    position: relative;
+    margin: 0 20%;
+    text-align: center;
+    color: white;
+    background-color: #f12;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+footer{
+    position: absolute;
+    bottom: 0rem;
+    text-align: center;
+    background-color: #072;
+    color: #fff;
+    width: 100%;
+    padding: 0.2rem; 
+}
